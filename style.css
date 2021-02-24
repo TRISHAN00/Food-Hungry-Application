@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  float: right;
+}
+.menu ul li {
+  float: left;
+  padding-left: 30px;
+}
+.menu ul li a {
+  color: #383838;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 20px 0px;
+}
+.logo img {
+  margin-top: 15px;
+}
+/* form input box */
+form.form-wrap {
+  padding-top: 50px;
+}
+button.search-btn {
+  margin-top: 20px;
+}
+/* meal items */
+.meal--area {
+  margin-top: 100px;
+}
+.single-item a img {
+  width: 100%;
+}
+.item-name a {
+  color: #383838;
+  font-weight: 500;
+  padding: 20px 0;
+  display: inline-block;
+}
+
+/* meal details  */
+.details-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.meal-info p {
+  padding: 0px 234px;
+}
